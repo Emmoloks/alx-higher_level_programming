@@ -1,4 +1,3 @@
 #!/usr/bin/python3
 import string
-_=print(*string.ascii_uppercase, sep='')
-
+_=print(*map(chr, range(ord('A'), ord('Z') + 1)), sep='')
