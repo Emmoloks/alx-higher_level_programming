@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-#remove_char
-
+# remove_char
 def remove_char_at(s, n):
     if n < 0:
         return (s)
